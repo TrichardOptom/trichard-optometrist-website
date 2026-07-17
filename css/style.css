@@ -216,3 +216,12 @@ footer{
 }
 
 }
+.symptoms{
+    background:#f7f7f7;
+    text-align:center;
+}
+
+.symptoms .btn{
+    display:inline-block;
+    margin:35px auto 0;
+}
