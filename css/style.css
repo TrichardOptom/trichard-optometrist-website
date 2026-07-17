@@ -280,3 +280,15 @@ color: inherit;
 .staff-member p {
     line-height: 1.6;
 }
+.symptom-info {
+display: none;
+margin-top: 20px;
+}
+
+.symptom-card {
+cursor: pointer;
+}
+
+.symptom-card:hover {
+transform: translateY(-5px);
+}
