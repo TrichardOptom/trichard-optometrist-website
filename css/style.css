@@ -225,3 +225,35 @@ footer{
     display:inline-block;
     margin:35px auto 0;
 }
+.staff {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.staff-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.staff-member {
+    text-align: center;
+    max-width: 300px;
+}
+
+.staff-member img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.staff-member h3 {
+    margin-top: 20px;
+}
+
+.staff-member p {
+    line-height: 1.6;
+}
