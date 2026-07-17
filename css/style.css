@@ -347,6 +347,11 @@ body{
 .btn:hover{
     background:#222222;
 }
+.logo img{
+    width:600px;
+    max-width:90%;
+    height:auto;
+}
 background:#3A3A3C;
 .navbar{
     background:#39393B;
