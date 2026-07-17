@@ -230,3 +230,120 @@ footer{
     height:auto;
     display:block;
 }
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ===========================
+   BODY
+=========================== */
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#ffffff;
+    color:#333333;
+    line-height:1.7;
+}
+
+/* ===========================
+   NAVIGATION
+=========================== */
+
+.navbar{
+    background:#6D6D6D;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.logo img{
+    width:260px;
+    height:auto;
+    display:block;
+}
+
+.logo p{
+    color:#ffffff;
+    font-size:15px;
+    margin-top:5px;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+.nav-links a{
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#222222;
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+    background:#f5f5f5;
+    text-align:center;
+    padding:120px 10%;
+}
+
+.hero h1{
+    font-family:'Playfair Display',serif;
+    font-size:60px;
+    color:#222222;
+    margin-bottom:15px;
+}
+
+.hero h3{
+    color:#6D6D6D;
+    margin-bottom:25px;
+}
+
+.hero p{
+    max-width:850px;
+    margin:auto;
+    font-size:18px;
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    padding:15px 40px;
+    background:#6D6D6D;
+    color:white;
+    text-decoration:none;
+    border-radius:35px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#222222;
+}
