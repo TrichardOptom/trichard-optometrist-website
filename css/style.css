@@ -222,3 +222,6 @@ footer{
     height:auto;
     display:block;
 }
+.logo img{
+    width:300px;
+}
