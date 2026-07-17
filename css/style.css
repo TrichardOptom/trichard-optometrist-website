@@ -200,3 +200,20 @@ footer{
 }
 
 }
+.logo img{
+    width:180px;
+    height:auto;
+    display:block;
+}
+
+.logo{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.logo p{
+    color:white;
+    font-size:15px;
+    margin-top:5px;
+}
