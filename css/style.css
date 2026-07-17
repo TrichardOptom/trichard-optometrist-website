@@ -1,7 +1,205 @@
 /* ===========================
-   NAVIGATION LOGO IMAGE
+   SECTIONS
 =========================== */
 
+section{
+    padding:40px 10%;
+}
+
+section h2{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:15px;
+    color:#222222;
+    font-family:'Playfair Display',serif;
+}
+
+.section-intro{
+    text-align:center;
+    max-width:900px;
+    margin:0 auto 25px;
+    color:#555;
+}
+
+
+/* ===========================
+   CARDS
+=========================== */
+
+.service-grid,
+.experience-grid,
+.medical-grid,
+.symptom-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+
+.service-card,
+.experience-card,
+.medical-card,
+.symptom-card{
+
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+    text-align:center;
+
+}
+
+
+.service-card:hover,
+.experience-card:hover,
+.medical-card:hover,
+.symptom-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+
+.service-card h3,
+.experience-card h3,
+.symptom-card h3{
+
+    color:#222222;
+    margin-bottom:15px;
+
+}
+
+
+/* ===========================
+   SYMPTOMS
+=========================== */
+
+.symptoms{
+    background:#f7f7f7;
+    text-align:center;
+    padding:40px 10%;
+}
+
+
+.symptom-grid{
+    margin:20px 0;
+}
+
+
+.symptom-card{
+    cursor:pointer;
+}
+
+
+.symptom-card a{
+    text-decoration:none;
+    color:inherit;
+}
+
+
+.symptom-info{
+    display:none;
+    margin-top:15px;
+}
+
+
+/* ===========================
+   STAFF
+=========================== */
+
+.staff {
+    text-align:center;
+    padding:40px 10%;
+}
+
+
+.staff-container {
+
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:30px;
+    flex-wrap:wrap;
+
+}
+
+
+.staff-member {
+
+    text-align:center;
+    max-width:300px;
+
+}
+
+
+.staff-member img {
+
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:50%;
+
+}
+
+
+.staff-member h3 {
+
+    margin-top:15px;
+
+}
+
+
+.staff-member p {
+
+    line-height:1.6;
+
+}
+
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    background:#6D6D6D;
+    color:white;
+    text-align:center;
+    padding:35px;
+
+}
+
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:900px){
+
+.navbar{
+
+    flex-direction:column;
+
+}
+
+
+.nav-links{
+
+    flex-direction:column;
+    text-align:center;
+    margin-top:20px;
+
+}
+
+
+.hero h1{
+
+    font-size:42px;
+
+}
+
+}
 .logo img{
     width:180px;
     height:auto;
@@ -18,40 +216,4 @@
     color:white;
     font-size:15px;
     margin-top:5px;
-}
-
-
-/* ===========================
-   NAVIGATION FIX
-=========================== */
-
-.navbar{
-    background:#6D6D6D;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:15px 8%;
-    position:sticky;
-    top:0;
-    z-index:1000;
-}
-
-
-.nav-links{
-    display:flex;
-    list-style:none;
-    gap:25px;
-}
-
-
-.nav-links a{
-    color:white;
-    text-decoration:none;
-    font-weight:500;
-    transition:.3s;
-}
-
-
-.nav-links a:hover{
-    color:#222222;
 }
