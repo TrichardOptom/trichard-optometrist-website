@@ -253,6 +253,29 @@ footer{
 .staff-member h3 {
     margin-top: 20px;
 }
+.symptom-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 25px;
+margin: 40px 0;
+}
+
+.symptom-card {
+background: white;
+padding: 25px;
+text-align: center;
+border-radius: 15px;
+transition: transform 0.3s;
+}
+
+.symptom-card:hover {
+transform: translateY(-5px);
+}
+
+.symptom-card a {
+text-decoration: none;
+color: inherit;
+}
 
 .staff-member p {
     line-height: 1.6;
