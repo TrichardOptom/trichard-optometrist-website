@@ -258,3 +258,35 @@ section h2{
 }
 
 }
+/* ===========================
+   MEDICAL AIDS
+=========================== */
+
+.medical-aids{
+    background:#f8f8f8;
+    text-align:center;
+    padding:70px 10%;
+}
+
+.medical-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:40px;
+}
+
+.medical-card{
+    background:white;
+    padding:22px;
+    border-radius:15px;
+    font-weight:600;
+    color:#39393B;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.medical-card:hover{
+    transform:translateY(-5px);
+    background:#39393B;
+    color:white;
+}
