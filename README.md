@@ -1,1 +1,0 @@
-# trichard-optometrist-website
