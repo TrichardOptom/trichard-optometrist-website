@@ -1,238 +1,6 @@
-/* ===========================
-   SECTIONS
-=========================== */
-
-section{
-    padding:40px 10%;
-}
-
-section h2{
-    text-align:center;
-    font-size:42px;
-    margin-bottom:15px;
-    color:#222222;
-    font-family:'Playfair Display',serif;
-}
-
-.section-intro{
-    text-align:center;
-    max-width:900px;
-    margin:0 auto 25px;
-    color:#555;
-}
-
-
-/* ===========================
-   CARDS
-=========================== */
-
-.service-grid,
-.experience-grid,
-.medical-grid,
-.symptom-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:25px;
-}
-
-
-.service-card,
-.experience-card,
-.medical-card,
-.symptom-card{
-
-    background:white;
-    padding:25px;
-    border-radius:18px;
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-    transition:.3s;
-    text-align:center;
-
-}
-
-
-.service-card:hover,
-.experience-card:hover,
-.medical-card:hover,
-.symptom-card:hover{
-
-    transform:translateY(-5px);
-
-}
-
-
-.service-card h3,
-.experience-card h3,
-.symptom-card h3{
-
-    color:#222222;
-    margin-bottom:15px;
-
-}
-
-
-/* ===========================
-   SYMPTOMS
-=========================== */
-
-.symptoms{
-    background:#f7f7f7;
-    text-align:center;
-    padding:40px 10%;
-}
-
-
-.symptom-grid{
-    margin:20px 0;
-}
-
-
-.symptom-card{
-    cursor:pointer;
-}
-
-
-.symptom-card a{
-    text-decoration:none;
-    color:inherit;
-}
-
-
-.symptom-info{
-    display:none;
-    margin-top:15px;
-}
-
-
-/* ===========================
-   STAFF
-=========================== */
-
-.staff {
-    text-align:center;
-    padding:40px 10%;
-}
-
-
-.staff-container {
-
-    display:flex;
-    justify-content:center;
-    align-items:flex-start;
-    gap:30px;
-    flex-wrap:wrap;
-
-}
-
-
-.staff-member {
-
-    text-align:center;
-    max-width:300px;
-
-}
-
-
-.staff-member img {
-
-    width:220px;
-    height:220px;
-    object-fit:cover;
-    border-radius:50%;
-
-}
-
-
-.staff-member h3 {
-
-    margin-top:15px;
-
-}
-
-
-.staff-member p {
-
-    line-height:1.6;
-
-}
-
-
-/* ===========================
-   FOOTER
-=========================== */
-
-footer{
-
-    background:#6D6D6D;
-    color:white;
-    text-align:center;
-    padding:35px;
-
-}
-
-
-/* ===========================
-   MOBILE
-=========================== */
-
-@media(max-width:900px){
-
-.navbar{
-
-    flex-direction:column;
-
-}
-
-
-.nav-links{
-
-    flex-direction:column;
-    text-align:center;
-    margin-top:20px;
-
-}
-
-
-.hero h1{
-
-    font-size:42px;
-
-}
-
-}
-.logo img{
-    width:180px;
-    height:auto;
-    display:block;
-}
-
-.logo{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
-
-.logo p{
-    color:white;
-    font-size:15px;
-    margin-top:5px;
-}
-.logo img{
-    width:260px;
-    height:auto;
-    display:block;
-}
-.logo img{
-    width:300px;
-}
-.logo img{
-    width:600px;
-    height:auto;
-    display:block;
-}
-/* ===========================
+/* ==========================
    RESET
-=========================== */
+========================== */
 
 *{
     margin:0;
@@ -240,27 +8,23 @@ footer{
     box-sizing:border-box;
 }
 
-/* ===========================
-   BODY
-=========================== */
-
 body{
     font-family:'Poppins',sans-serif;
-    background:#ffffff;
-    color:#333333;
+    color:#333;
+    background:#fff;
     line-height:1.7;
 }
 
-/* ===========================
+/* ==========================
    NAVIGATION
-=========================== */
+========================== */
 
 .navbar{
-    background:#6D6D6D;
+    background:#3A3A3C;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:15px 8%;
+    padding:18px 8%;
     position:sticky;
     top:0;
     z-index:1000;
@@ -269,58 +33,60 @@ body{
 .logo{
     display:flex;
     flex-direction:column;
-    align-items:center;
 }
 
-.logo img{
-    width:260px;
-    height:auto;
-    display:block;
+.logo h2{
+    font-family:'Playfair Display',serif;
+    font-size:42px;
+    color:#ffffff;
+    margin:0;
 }
 
 .logo p{
-    color:#ffffff;
-    font-size:15px;
-    margin-top:5px;
+    color:#d9d9d9;
+    font-size:16px;
+    letter-spacing:4px;
+    text-transform:uppercase;
 }
 
 .nav-links{
     display:flex;
     list-style:none;
-    gap:25px;
+    gap:30px;
 }
 
 .nav-links a{
-    color:#ffffff;
     text-decoration:none;
+    color:white;
     font-weight:500;
     transition:.3s;
 }
 
 .nav-links a:hover{
-    color:#222222;
+    color:#d6d6d6;
 }
 
-/* ===========================
+/* ==========================
    HERO
-=========================== */
+========================== */
 
 .hero{
-    background:#f5f5f5;
+    background:#F7F7F7;
     text-align:center;
     padding:120px 10%;
 }
 
 .hero h1{
     font-family:'Playfair Display',serif;
-    font-size:60px;
-    color:#222222;
+    font-size:64px;
+    color:#222;
     margin-bottom:15px;
 }
 
 .hero h3{
-    color:#6D6D6D;
-    margin-bottom:25px;
+    font-size:24px;
+    color:#555;
+    margin-bottom:20px;
 }
 
 .hero p{
@@ -329,45 +95,166 @@ body{
     font-size:18px;
 }
 
-/* ===========================
+/* ==========================
    BUTTONS
-=========================== */
+========================== */
 
 .btn{
     display:inline-block;
     margin-top:35px;
     padding:15px 40px;
-    background:#6D6D6D;
+    border-radius:40px;
+    background:#3A3A3C;
     color:white;
     text-decoration:none;
-    border-radius:35px;
     transition:.3s;
 }
 
 .btn:hover{
-    background:#222222;
+    background:#222;
 }
-.logo img{
-    width:600px;
-    max-width:90%;
-    height:auto;
+
+/* ==========================
+   SECTIONS
+========================== */
+
+section{
+    padding:80px 10%;
 }
-background:#3A3A3C;
+
+section h2{
+    text-align:center;
+    font-family:'Playfair Display',serif;
+    font-size:46px;
+    margin-bottom:20px;
+}
+
+.section-intro{
+    text-align:center;
+    max-width:900px;
+    margin:0 auto 40px;
+    color:#666;
+}
+
+/* ==========================
+   CARDS
+========================== */
+
+.service-grid,
+.medical-grid,
+.symptom-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.service-card,
+.medical-card,
+.symptom-card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.service-card:hover,
+.medical-card:hover,
+.symptom-card:hover{
+    transform:translateY(-8px);
+}
+
+/* ==========================
+   STAFF
+========================== */
+
+.staff{
+    text-align:center;
+}
+
+.staff-container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.staff-member{
+    max-width:280px;
+}
+
+.staff-member img{
+    width:230px;
+    height:230px;
+    object-fit:cover;
+    border-radius:50%;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.staff-member h3{
+    margin-top:20px;
+    font-size:28px;
+}
+
+.staff-member p{
+    color:#666;
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+    background:#3A3A3C;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media(max-width:900px){
+
 .navbar{
-    background:#39393B;
+    flex-direction:column;
 }
+
+.logo{
+    text-align:center;
+    margin-bottom:20px;
+}
+
 .logo h2{
-    font-family: 'Playfair Display', serif;
-    font-size: 42px;
-    font-weight: 700;
-    color: #222222;
-    margin: 0;
-    line-height: 1.1;
+    font-size:34px;
 }
+
 .logo p{
-    font-size: 18px;
-    color: #6D6D6D;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin-top: 8px;
+    font-size:14px;
+}
+
+.nav-links{
+    flex-direction:column;
+    text-align:center;
+    gap:15px;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero h3{
+    font-size:20px;
+}
+
+section h2{
+    font-size:34px;
+}
+
+.staff-container{
+    flex-direction:column;
+    align-items:center;
+}
+
 }
