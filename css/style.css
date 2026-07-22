@@ -426,3 +426,49 @@ section h2{
     overflow:hidden;
     box-shadow:0 10px 30px rgba(0,0,0,.15);
 }
+/* ===========================
+   CONTACT
+=========================== */
+
+.contact{
+    background:#f7f7f7;
+    text-align:center;
+    padding:100px 10%;
+}
+
+.contact-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:35px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.contact-card{
+    background:white;
+    padding:45px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.contact-card h3{
+    font-family:'Playfair Display',serif;
+    font-size:30px;
+    color:#39393B;
+    margin-bottom:25px;
+}
+
+.contact-card p{
+    margin-bottom:18px;
+    color:#555;
+    line-height:1.8;
+}
+
+.contact-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin:50px 0;
+}
