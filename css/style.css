@@ -294,3 +294,60 @@ section h2{
     display:none;
     margin-top:15px;
 }
+/* ===========================
+   NEWSLETTER
+=========================== */
+
+.newsletter{
+    background:#39393B;
+    color:white;
+    text-align:center;
+    padding:80px 10%;
+}
+
+.newsletter h2{
+    color:white;
+}
+
+.newsletter .section-intro{
+    color:#dddddd;
+    max-width:700px;
+}
+
+.newsletter-form{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top:35px;
+}
+
+.newsletter-form input{
+    width:380px;
+    max-width:100%;
+    padding:16px;
+    border:none;
+    border-radius:50px;
+    font-size:16px;
+}
+
+.newsletter-form button{
+    padding:16px 35px;
+    border:none;
+    border-radius:50px;
+    background:white;
+    color:#39393B;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.newsletter-form button:hover{
+    background:#e5e5e5;
+}
+
+.newsletter-note{
+    margin-top:25px;
+    font-size:14px;
+    color:#cccccc;
+}
