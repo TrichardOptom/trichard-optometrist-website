@@ -472,3 +472,31 @@ section h2{
     flex-wrap:wrap;
     margin:50px 0;
 }
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    background:#2F2F31;
+    color:white;
+    padding:60px 10%;
+    text-align:center;
+}
+
+.footer-content{
+    max-width:700px;
+    margin:auto;
+}
+
+.footer-content h2{
+    color:white;
+    font-family:'Playfair Display', serif;
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.footer-content p{
+    margin:6px 0;
+    color:#d6d6d6;
+    line-height:1.8;
+}
