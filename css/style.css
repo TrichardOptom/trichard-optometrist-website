@@ -920,3 +920,16 @@ footer{
     }
 
 }
+.appointment-btn {
+    display: block;
+    margin: 25px auto 0;
+    text-align: center;
+}
+
+.appointment-form {
+    width: 100%;
+}
+
+.appointment-container {
+    margin: 0 auto;
+}
