@@ -356,3 +356,17 @@ background:#3A3A3C;
 .navbar{
     background:#39393B;
 }
+.logo h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #222222;
+    margin: 0;
+}
+
+.logo p{
+    font-size: 14px;
+    color: #6D6D6D;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
