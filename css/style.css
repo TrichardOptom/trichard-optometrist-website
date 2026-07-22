@@ -290,3 +290,7 @@ section h2{
     background:#39393B;
     color:white;
 }
+.symptom-info{
+    display:none;
+    margin-top:15px;
+}
