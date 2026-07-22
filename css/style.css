@@ -688,3 +688,22 @@ footer{
     }
 
 }
+.experience-card{
+    background:#f7f7f7;
+    border-radius:18px;
+    padding:30px;
+    text-align:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+    min-height:220px;
+}
+.experience-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:40px;
+    align-items:stretch;
+}
