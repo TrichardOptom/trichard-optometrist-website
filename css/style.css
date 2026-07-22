@@ -707,3 +707,76 @@ footer{
     margin-top:40px;
     align-items:stretch;
 }
+/* ===========================
+   EXPANDABLE SYMPTOMS
+=========================== */
+
+.symptom-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.symptom-card{
+    background:#ffffff;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.symptom-card:hover{
+    transform:translateY(-5px);
+}
+
+.symptom-title{
+    width:100%;
+    background:#ffffff;
+    border:none;
+    padding:22px;
+    font-family:'Playfair Display', serif;
+    font-size:24px;
+    color:#39393B;
+    text-align:left;
+    cursor:pointer;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.symptom-title::after{
+    content:"+";
+    font-size:28px;
+    font-weight:300;
+    color:#6D6D6D;
+    transition:0.3s;
+}
+
+.symptom-card.active .symptom-title::after{
+    content:"−";
+}
+
+.symptom-content{
+    display:none;
+    padding:0 25px 25px;
+    color:#555;
+    line-height:1.8;
+}
+
+.symptom-card.active .symptom-content{
+    display:block;
+}
+
+.symptom-content p{
+    margin-bottom:15px;
+}
+
+@media(max-width:768px){
+
+    .symptom-title{
+        font-size:20px;
+        padding:18px;
+    }
+
+}
