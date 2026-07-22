@@ -537,3 +537,78 @@ footer{
     color:#ffffff;
     margin-bottom:20px;
 }
+/* ===========================
+   FAMILY HISTORY
+=========================== */
+
+.history{
+    padding:80px 10%;
+}
+
+.history-container{
+    display:flex;
+    align-items:center;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.history-container.reverse{
+    flex-direction:row-reverse;
+}
+
+.history-image{
+    flex:1;
+    min-width:300px;
+}
+
+.history-image img{
+    width:100%;
+    max-width:420px;
+    border-radius:20px;
+    box-shadow:0 12px 30px rgba(0,0,0,.15);
+    display:block;
+    margin:auto;
+}
+
+.history-text{
+    flex:1;
+    min-width:300px;
+}
+
+.history-text h2{
+    text-align:left;
+    margin-bottom:10px;
+}
+
+.history-text h4{
+    color:#6D6D6D;
+    margin-bottom:25px;
+    font-weight:500;
+}
+
+.history-text p{
+    margin-bottom:18px;
+    line-height:1.8;
+}
+
+.family-legacy{
+    text-align:center;
+    background:#f7f7f7;
+    padding:90px 10%;
+}
+
+.closing{
+    background:#39393B;
+    color:white;
+    text-align:center;
+    padding:90px 10%;
+}
+
+.closing h2{
+    color:white;
+}
+
+.closing .section-intro{
+    color:#dddddd;
+    max-width:850px;
+}
