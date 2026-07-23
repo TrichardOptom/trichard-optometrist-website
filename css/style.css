@@ -1897,3 +1897,42 @@ body.appointment-page{
 footer{
     margin-top:auto;
 }
+/* ===========================
+   THANK YOU PAGE
+=========================== */
+
+.thank-you{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#39393B;
+    color:white;
+    text-align:center;
+    padding:40px 10%;
+}
+
+
+.thank-you-container{
+    max-width:700px;
+}
+
+
+.thank-you h1{
+    color:white;
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+
+.thank-you p{
+    color:#dddddd;
+    font-size:18px;
+    line-height:1.8;
+}
+
+
+.thank-you .btn{
+    display:inline-block;
+    margin-top:30px;
+}
