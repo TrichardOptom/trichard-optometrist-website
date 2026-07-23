@@ -1032,3 +1032,23 @@ footer{
 footer p{
     margin-top:10px;
 }
+/* Make appointment page fill the screen */
+.appointment-page{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+.appointment-section{
+    flex:1;
+}
+/* Make appointment page fill the screen */
+.appointment-page{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+.appointment-section{
+    flex:1;
+}
