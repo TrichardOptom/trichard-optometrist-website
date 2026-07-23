@@ -45,99 +45,83 @@
 <h3>Your Vision Is Our Priority</h3>
 
 <p>
-
 Complete the form below to request an appointment.
 Our team will contact you to confirm the next available consultation date with our optometrist.
-
 </p>
 
 </section>
 
-<section class="appointment">
+<section class="appointment-section">
+
+<div class="appointment-container">
 
 <h2>Appointment Request</h2>
 
 <p class="section-intro">
-
-Please complete the form below.
-Our team will contact you as soon as possible to arrange your appointment.
-
+Please complete the form below. One of our friendly team members will contact you to confirm your appointment.
 </p>
-
 <form class="appointment-form">
 
+<div class="form-row">
+
 <div class="form-group">
-
-<label>Full Name</label>
-
+<label for="fullname">Full Name</label>
 <input
+id="fullname"
 type="text"
 placeholder="Enter your full name"
 required>
-
 </div>
 
 <div class="form-group">
-
-<label>Cell Number</label>
-
+<label for="phone">Cell Number</label>
 <input
+id="phone"
 type="tel"
 placeholder="Enter your cell number"
 required>
+</div>
 
 </div>
 
+<div class="form-row">
+
 <div class="form-group">
-
-<label>Email Address (Optional)</label>
-
+<label for="email">Email Address (Optional)</label>
 <input
+id="email"
 type="email"
 placeholder="Enter your email address">
-
 </div>
 
 <div class="form-group">
-
-<label>Medical Aid</label>
-
+<label for="medicalaid">Medical Aid</label>
 <input
+id="medicalaid"
 type="text"
 placeholder="Medical Aid Name">
+</div>
 
 </div>
 
 <div class="form-group">
 
-<label>Reason for Your Visit</label>
+<label for="reason">Reason for Your Visit</label>
 
-<select required>
+<select id="reason" required>
 
 <option value="">Please Select</option>
-
 <option>Comprehensive Eye Examination</option>
-
 <option>New Glasses</option>
-
 <option>Contact Lens Consultation</option>
-
 <option>Children's Eye Examination</option>
-
 <option>Eye Pain or Redness</option>
-
 <option>Dry Eyes</option>
-
 <option>Headaches</option>
-
 <option>Blurred Vision</option>
-
 <option>Collect Glasses</option>
-
 <option>Frame Adjustment / Repairs</option>
-
 <option>Follow-up Appointment</option>
-
 <option>Other</option>
 
 </select>
@@ -146,21 +130,24 @@ placeholder="Medical Aid Name">
 
 <div class="form-group">
 
-<label>Additional Information</label>
+<label for="message">Additional Information</label>
 
 <textarea
+id="message"
 rows="6"
 placeholder="Please provide any information that may assist our team before contacting you."></textarea>
 
 </div>
 
-<button class="btn" type="submit">
-
+<button class="appointment-btn" type="submit">
 Request Appointment
-
 </button>
 
 </form>
+
+</div>
+
+</section>
 <section class="appointment-note">
 
 <h2>Appointment Information</h2>
@@ -180,11 +167,8 @@ Once we receive your appointment request, one of our friendly team members will 
 <h3>Practice Hours</h3>
 
 <p>
-
 Monday – Friday<br>
-
 08:00 – 16:00
-
 </p>
 
 </div>
@@ -194,9 +178,7 @@ Monday – Friday<br>
 <h3>Telephone</h3>
 
 <p>
-
 051 448 1921
-
 </p>
 
 </div>
@@ -206,9 +188,7 @@ Monday – Friday<br>
 <h3>WhatsApp</h3>
 
 <p>
-
 064 894 9464
-
 </p>
 
 </div>
@@ -218,9 +198,7 @@ Monday – Friday<br>
 <h3>Email</h3>
 
 <p>
-
 trichardoptoms@gmail.com
-
 </p>
 
 </div>
@@ -230,13 +208,9 @@ trichardoptoms@gmail.com
 <h3>Address</h3>
 
 <p>
-
 4 Milner Road<br>
-
 Waverley<br>
-
 Bloemfontein
-
 </p>
 
 </div>
@@ -246,9 +220,7 @@ Bloemfontein
 <h3>Need Urgent Assistance?</h3>
 
 <p>
-
 Please call or WhatsApp us during office hours and we'll gladly assist you.
-
 </p>
 
 </div>
@@ -256,7 +228,6 @@ Please call or WhatsApp us during office hours and we'll gladly assist you.
 </div>
 
 </section>
-
 <section class="closing">
 
 <h2>We Look Forward to Welcoming You</h2>
@@ -269,11 +240,17 @@ For more than 85 years, we have proudly cared for the vision of generations of f
 
 </p>
 
+<div class="contact-buttons">
+
 <a href="contact.html" class="btn">
-
 Contact Us
-
 </a>
+
+<a href="../index.html" class="btn">
+Return Home
+</a>
+
+</div>
 
 </section>
 
@@ -285,14 +262,28 @@ Contact Us
 
 <p>Established 1939</p>
 
-<p>Your Vision Is Our Business.</p>
+<div class="footer-links">
 
-<p>&copy; 2026 Trichard Optometrists. All Rights Reserved.</p>
+<a href="../index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="services.html">Services</a>
+<a href="symptoms.html">Symptoms</a>
+<a href="appointment.html">Appointment</a>
+<a href="contact.html">Contact</a>
+
+</div>
+
+<p>
+Your Vision. Our Priority.
+</p>
+
+<p class="copyright">
+© 2026 Trichard Optometrists. All Rights Reserved.
+</p>
 
 </div>
 
 </footer>
-
 </body>
 
 </html>
