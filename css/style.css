@@ -981,3 +981,54 @@ footer{
     gap:20px;
     flex-wrap:wrap;
 }
+/* ===========================
+   MAP
+=========================== */
+
+.map-section{
+    padding:80px 10%;
+    text-align:center;
+    background:#ffffff;
+}
+
+.map-container{
+    margin-top:35px;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    background:#39393B;
+    color:white;
+    padding:50px 10%;
+    text-align:center;
+}
+
+.footer-content h3{
+    font-family:'Playfair Display',serif;
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.footer-links{
+    margin:25px 0;
+}
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    margin:0 12px;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:#d6d6d6;
+}
+
+footer p{
+    margin-top:10px;
+}
