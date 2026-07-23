@@ -1852,3 +1852,48 @@ img{
 ::-webkit-scrollbar-thumb:hover{
     background:#1F1F21;
 }
+/* ==========================================
+   APPOINTMENT PAGE LAYOUT
+========================================== */
+
+html,
+body{
+    height:100%;
+}
+
+body.appointment-page{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+.appointment-section{
+    flex:1;
+    background:#F8F8F8;
+    padding:80px 10%;
+}
+
+.appointment-container{
+    max-width:900px;
+    margin:0 auto;
+    background:#FFFFFF;
+    padding:50px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.appointment-note{
+    background:#FFFFFF;
+    padding:90px 10%;
+}
+
+.closing{
+    background:#4A4A4D;
+    color:#FFFFFF;
+    text-align:center;
+    padding:90px 10%;
+}
+
+footer{
+    margin-top:auto;
+}
